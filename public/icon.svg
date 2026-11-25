@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="112" fill="#007F80"/>
+  <rect x="20" y="20" width="472" height="472" rx="96" fill="#009F9D"/>
+  <circle cx="256" cy="256" r="176" stroke="#DDF5F3" stroke-opacity="0.24" stroke-width="6"/>
+  <!-- Scales of Justice -->
+  <path d="M256 118V364" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round"/>
+  <path d="M188 364H324" stroke="#E6B84A" stroke-width="18" stroke-linecap="round"/>
+  <path d="M150 170H362" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="256" cy="118" r="18" fill="#E6B84A"/>
+  <!-- Left Scale Pan -->
+  <path d="M150 170L116 254H184L150 170Z" stroke="#DDF5F3" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M108 254C108 277.196 126.804 296 150 296C173.196 296 192 277.196 192 254H108Z" fill="#E6B84A"/>
+  <!-- Right Scale Pan -->
+  <path d="M362 170L328 254H396L362 170Z" stroke="#DDF5F3" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M320 254C320 277.196 338.804 296 362 296C385.196 296 404 277.196 404 254H320Z" fill="#E6B84A"/>
+  <!-- Open Legal Codex Base -->
+  <path d="M184 396C208 384 232 384 256 396C280 384 304 384 328 396" stroke="#DDF5F3" stroke-width="12" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,71 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --color-primary: #009F9D;
+    --color-primary-dark: #007F80;
+    --color-primary-light: #DDF5F3;
+    --color-surface: #FFFFFF;
+    --color-surface-subtle: #F5FAFA;
+    --color-text-main: #172B35;
+    --color-text-muted: #71818A;
+    --color-border: #D7E9E8;
+    --color-accent: #E6B84A;
+  }
+
+  .dark {
+    --color-primary: #009F9D;
+    --color-primary-dark: #007F80;
+    --color-primary-light: #132C2E;
+    --color-surface: #0F1C21;
+    --color-surface-subtle: #0B1418;
+    --color-text-main: #F0F7F7;
+    --color-text-muted: #8BA4AE;
+    --color-border: #1D363D;
+    --color-accent: #E6B84A;
+  }
+
+  html {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-surface-subtle);
+    color: var(--color-text-main);
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.font-arabic {
+  font-family: 'IBM Plex Sans Arabic', 'Cairo', system-ui, sans-serif;
+}
+
+.font-arabic-display {
+  font-family: 'Cairo', 'IBM Plex Sans Arabic', system-ui, sans-serif;
+}
+
+.font-mono-tabular {
+  font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Accessible focus outline */
+:focus-visible {
+  outline: 2px solid #009F9D;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

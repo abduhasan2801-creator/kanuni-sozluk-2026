@@ -1,0 +1,6 @@
+{
+  "name": "AHD Kanuni Sözlük",
+  "description": "Türkçe–Arapça Kapsamlı Hukuk Sözlüğü | معجم AHD القانوني التركي العربي",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
